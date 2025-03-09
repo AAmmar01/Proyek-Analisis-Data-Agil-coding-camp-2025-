@@ -7,19 +7,22 @@ Proyek ini merupakan bagian dari **Coding Camp 2025 by DBS Foundation**, yang be
 
 
 ## 🚀 Instalasi dan Menjalankan Dashboard
-1. **Buat Virtual Environment (Opsional)**
+1. Buat Virtual Environment (Opsional)
    ```sh
    python -m venv env
 
 2. Aktifkan Virtual Environment
-Windows:
-env\Scripts\activate
+   Windows:
+   ```sh
+   env\Scripts\activate
 
 3. Instal Dependensi
-pip install -r requirements.txt
+   ```sh
+   pip install -r requirements.txt
 
 4. Menjalankan Dashboard
-streamlit run dashboard/dashboard.py
+   ```sh
+   streamlit run dashboard/dashboard0.py
 
 📊 Dataset
 Dataset yang digunakan adalah dataset peminjaman sepeda yang berisi data harian (day.csv) dan per jam (hour.csv), yang diambil dari sumber publik.
